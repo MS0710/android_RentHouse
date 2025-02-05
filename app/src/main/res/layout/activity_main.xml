@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="歡迎來到租屋APP"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:textSize="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="80dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInput_main_account_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/edit_main_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="請輸入您的帳號"
+                android:textSize="20dp"
+                android:singleLine="true"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="5dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInput_main_password_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="8">
+                <EditText
+                    android:id="@+id/edit_main_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="請輸入您的密碼"
+                    android:textSize="20dp"
+                    android:singleLine="true"
+                    android:password="true"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <ImageView
+                android:id="@+id/img_main_watchPassword"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/eye"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_main_forgetPassword"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="忘記密碼"
+            android:gravity="right"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="end"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <Button
+                android:id="@+id/btn_main_signUp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="註冊"
+                android:background="@drawable/btn_select_orange"/>
+
+            <Button
+                android:id="@+id/btn_main_signIn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="登入"
+                android:background="@drawable/btn_select_orange"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="top">
+            <CheckBox
+                android:id="@+id/cb_main_checkStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/txt_main_condition"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="登入及視為同意"
+                android:textColor="@color/black"
+                android:textSize="15dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

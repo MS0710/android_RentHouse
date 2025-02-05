@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "749653666484",
+    "firebase_url": "https://renthouse-d132a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "renthouse-d132a",
+    "storage_bucket": "renthouse-d132a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749653666484:android:a5c9ea8151f6f5306045e1",
+        "android_client_info": {
+          "package_name": "com.example.renthouse1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3etBNk8euKtEySZ1wv4RUf3cJNGIEafg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749653666484:android:e051c59ff843edd26045e1",
+        "android_client_info": {
+          "package_name": "com.example.renthouse2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3etBNk8euKtEySZ1wv4RUf3cJNGIEafg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

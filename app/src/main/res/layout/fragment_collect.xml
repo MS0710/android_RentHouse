@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".CollectFragment"
+    android:padding="10dp"
+    android:background="@color/white">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txt_collect_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="您的收藏"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+    <ListView
+        android:id="@+id/lv_collect_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/txt_collect_title"/>
+
+    <LinearLayout
+        android:id="@+id/ll_collect_noInfoTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/noinfo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="暫無收藏"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
