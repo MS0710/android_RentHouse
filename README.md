@@ -1,7 +1,7 @@
 Android 租屋APP
 -------------
 
-Android 租屋APP設計,包含以下\n
+Android 租屋APP設計,包含以下
 1. 資料庫使用Firebase
 2. 帳號註冊登入功能
 3. 房屋物件搜尋
